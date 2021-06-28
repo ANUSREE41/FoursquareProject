@@ -32,7 +32,6 @@ class SignUpController: UIViewController {
         if let view = view as? BackgroundSettingsView {
           view.backgroundImage.frame = self.view.bounds
         }
-        print("hello")
         
         if (!IsheightNotSet) {
            if (UIDevice.current.orientation.isLandscape ) {
